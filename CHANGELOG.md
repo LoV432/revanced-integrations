@@ -1,3 +1,38 @@
+## [0.36.6](https://github.com/revanced/revanced-integrations/compare/v0.36.5...v0.36.6) (2022-09-08)
+
+
+### Bug Fixes
+
+* android api 23 compat ([136fb7b](https://github.com/revanced/revanced-integrations/commit/136fb7bcbb12b94924bb1a6ac449b8d35f9f4e0f)), closes [revanced/revanced-integrations#136](https://github.com/revanced/revanced-integrations/issues/136)
+
+## [0.36.5](https://github.com/revanced/revanced-integrations/compare/v0.36.4...v0.36.5) (2022-08-29)
+
+
+### Bug Fixes
+
+* revert "pull up to refresh" ([cb7e90c](https://github.com/revanced/revanced-integrations/commit/cb7e90c41ed019822f5bd8ade259875ba09a027c))
+
+## [0.36.4](https://github.com/revanced/revanced-integrations/compare/v0.36.3...v0.36.4) (2022-08-27)
+
+
+### Bug Fixes
+
+* pull down to reload the home page ([#129](https://github.com/revanced/revanced-integrations/issues/129)) ([96d427f](https://github.com/revanced/revanced-integrations/commit/96d427f2ba8a896fa7faebd65fa8cc9a834aa2b8))
+
+## [0.36.3](https://github.com/revanced/revanced-integrations/compare/v0.36.2...v0.36.3) (2022-08-26)
+
+
+### Bug Fixes
+
+* change default value for autorepeat setting ([#126](https://github.com/revanced/revanced-integrations/issues/126)) ([c6c2556](https://github.com/revanced/revanced-integrations/commit/c6c255609f0d58e9097dd898dbf9cce3a5cf3dc4))
+
+## [0.36.2](https://github.com/revanced/revanced-integrations/compare/v0.36.1...v0.36.2) (2022-08-25)
+
+
+### Bug Fixes
+
+* restart when toggling the downloads button ([#125](https://github.com/revanced/revanced-integrations/issues/125)) ([afd4815](https://github.com/revanced/revanced-integrations/commit/afd4815a22811eda1b63ef68066c57782a657c33))
+
 ## [0.36.1](https://github.com/revanced/revanced-integrations/compare/v0.36.0...v0.36.1) (2022-08-24)
 
 

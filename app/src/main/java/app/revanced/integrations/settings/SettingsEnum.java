@@ -14,7 +14,7 @@ import app.revanced.integrations.utils.SharedPrefHelper;
 public enum SettingsEnum {
     //Download Settings
     // TODO: DOWNLOAD_PATH("revanced_download_path", Environment.getExternalStorageDirectory().getPath() + "/Download", ReturnType.STRING),
-    DOWNLOADS_BUTTON_SHOWN("revanced_downloads", true, ReturnType.BOOLEAN),
+    DOWNLOADS_BUTTON_SHOWN("revanced_downloads", true, ReturnType.BOOLEAN, true),
     DOWNLOADS_PACKAGE_NAME("revanced_downloads_package_name", "org.schabi.newpipe" /* NewPipe */, ReturnType.STRING),
 
     //Video Settings
@@ -62,7 +62,7 @@ public enum SettingsEnum {
     //Misc. Settings
     //ToDo: Not used atm, Patch missing
     CAPTIONS_ENABLED("revanced_pref_captions", false, ReturnType.BOOLEAN),
-    PREFERRED_AUTO_REPEAT("revanced_pref_auto_repeat", true, ReturnType.BOOLEAN),
+    PREFERRED_AUTO_REPEAT("revanced_pref_auto_repeat", false, ReturnType.BOOLEAN),
     USE_HDR_AUTO_BRIGHTNESS("revanced_pref_hdr_autobrightness", true, ReturnType.BOOLEAN),
     TAP_SEEKING_ENABLED("revanced_enable_tap_seeking", true, ReturnType.BOOLEAN),
     ENABLE_MINIMIZED_PLAYBACK("revanced_enable_minimized_playback", true, ReturnType.BOOLEAN),

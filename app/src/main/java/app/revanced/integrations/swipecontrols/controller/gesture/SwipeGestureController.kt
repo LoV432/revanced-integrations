@@ -126,7 +126,7 @@ open class SwipeGestureController(
      *
      * @param e the motion event
      */
-    open fun onUp(e: MotionEvent) {
+    override fun onUp(e: MotionEvent) {
         LogHelper.debug(this.javaClass, "onUp(${e.x}, ${e.y}, ${e.action})")
         inSwipeSession = false
         currentSwipe = SwipeDirection.NONE
